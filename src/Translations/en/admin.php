@@ -119,7 +119,7 @@ return [
 // tickets-admin/status/____
   'status-index-title'            => 'Statuses Management',
   'btn-create-new-status'         => 'Create new status',
-  'status-index-no-statuses'      => 'There are no statues,',
+  'status-index-no-statuses'      => 'There are no statuses,',
   'status-index-create-new'       => 'create new status',
   'status-index-js-delete'        => 'Are you sure you want to delete the status: ',
   'status-create-title'           => 'Create New Status',
