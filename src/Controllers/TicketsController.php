@@ -67,7 +67,7 @@ class TicketsController extends Controller
                 'ticketit.id AS agent',
                 'ticketit.updated_at AS updated_at',
                 'ticketit_priorities.name AS priority',
-                'users.name AS owner',
+                'users.username AS owner',
                 'ticketit.agent_id',
                 'ticketit_categories.name AS category',
             ]);
