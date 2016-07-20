@@ -62,5 +62,6 @@
 	            @endif
 	        ]
 	    });
+	    console.log('test');
 	</script>
 @append
