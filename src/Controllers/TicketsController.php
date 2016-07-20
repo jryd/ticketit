@@ -70,7 +70,9 @@ class TicketsController extends Controller
                 'users.username AS owner',
                 'ticketit.agent_id',
                 'ticketit_categories.name AS category',
-            ]);
+            ])->toSql();
+            
+            dd($collection);
 
         $collection = $datatables->of($collection);
 
