@@ -16,7 +16,7 @@ return [
   'table-status'                     => 'Status',
   'table-last-updated'               => 'Last Updated',
   'table-priority'                   => 'Priority',
-  'table-agent'                      => 'Agent',
+  'table-agent'                      => 'Staff',
   'table-category'                   => 'Category',
 
   // Datatables
@@ -47,7 +47,7 @@ return [
   'btn-mark-complete'                => 'Mark Complete',
   'btn-submit'                       => 'Submit',
 
-  'agent'                            => 'Agent',
+  'agent'                            => 'Staff',
   'category'                         => 'Category',
   'colon'                            => ': ',
   'comments'                         => 'Comments',
@@ -95,10 +95,10 @@ return [
   */
 
 // AgentsController
-  'agents-are-added-to-agents'                      => 'Agents :names are added to agents',
+  'agents-are-added-to-agents'                      => 'Staff members :names are added to Staff',
   'administrators-are-added-to-administrators'      => 'Administrators :names are added to administrators', //New
   'agents-joined-categories-ok'                     => 'Joined categories successfully',
-  'agents-is-removed-from-team'                     => 'Removed agent\s :name from the agent team',
+  'agents-is-removed-from-team'                     => 'Removed staff member\s :name from the staff team',
   'administrators-is-removed-from-team'             => 'Removed administrator\s :name from the administrators team', // New
 
 // CategoriesController
