@@ -6,7 +6,7 @@ return [
   *  Constants
   */
   'nav-settings'                  => 'Settings',
-  'nav-agents'                    => 'Agents',
+  'nav-agents'                    => 'Staff',
   'nav-dashboard'                 => 'Dashboard',
   'nav-categories'                => 'Categories',
   'nav-priorities'                => 'Priorities',
@@ -20,7 +20,7 @@ return [
   'table-action'                  => 'Action',
   'table-categories'              => 'Categories',
   'table-join-category'           => 'Joined Categories',
-  'table-remove-agent'            => 'Remove from agents',
+  'table-remove-agent'            => 'Remove from staff',
   'table-remove-administrator'    => 'Remove from administrators', // New
 
   'table-slug'                    => 'Slug',
@@ -56,11 +56,11 @@ return [
   'index-6-months'                      => '6 months',
   'index-12-months'                     => '12 months',
   'index-tickets-share-per-category'    => 'Tickets share per category',
-  'index-tickets-share-per-agent'       => 'Tickets share per agent',
+  'index-tickets-share-per-agent'       => 'Tickets share per staff member',
   'index-categories'                    => 'Categories',
   'index-category'                      => 'Category',
-  'index-agents'                        => 'Agents',
-  'index-agent'                         => 'Agent',
+  'index-agents'                        => 'Staff',
+  'index-agent'                         => 'Staff',
   'index-administrators'                => 'Administrators',  //new
   'index-administrator'                 => 'Administrator',  //new
   'index-users'                         => 'Users',
@@ -72,17 +72,17 @@ return [
   'index-month'                         => 'Month',
   'index-performance-chart'             => 'How many days in average to resolve a ticket?',
   'index-categories-chart'              => 'Tickets distribution per category',
-  'index-agents-chart'                  => 'Tickets distribution per Agent',
+  'index-agents-chart'                  => 'Tickets distribution per staff member',
 
 // tickets-admin/agent/____
-  'agent-index-title'             => 'Agent Management',
-  'btn-create-new-agent'          => 'Create new agent',
-  'agent-index-no-agents'         => 'There are no agents, ',
-  'agent-index-create-new'        => 'Add agents',
-  'agent-create-title'            => 'Add Agent',
-  'agent-create-add-agents'       => 'Add Agents',
+  'agent-index-title'             => 'Staff Management',
+  'btn-create-new-agent'          => 'Create a new staff member',
+  'agent-index-no-agents'         => 'There are no staff members, ',
+  'agent-index-create-new'        => 'Add staff members',
+  'agent-create-title'            => 'Add Staff',
+  'agent-create-add-agents'       => 'Add Staff Members',
   'agent-create-no-users'         => 'There are no user accounts, create user accounts first.',
-  'agent-create-select-user'      => 'Select user accounts to be added as agents',
+  'agent-create-select-user'      => 'Select user accounts to be added as staff members',
 
 // tickets-admin/administrators/____
   'administrator-index-title'                   => 'Administrator Management',  //new
