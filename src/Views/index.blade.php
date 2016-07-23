@@ -6,10 +6,8 @@
 
 @section('content')
     <div class="row">
-    <div class="col-md-12">
         @include('ticketit::shared.header')
         @include('ticketit::tickets.index')
-        </div>
     </div>
 @stop
 
