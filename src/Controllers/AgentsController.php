@@ -87,6 +87,7 @@ class AgentsController extends Controller
         foreach($agent->agentOpenTickets as $ticket)
         {
             $ticket->autoSelectAgent();
+            $ticket->save();
         }
 
         // Remove him from tickets categories as well
