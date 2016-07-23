@@ -45,6 +45,13 @@ class AgentsController extends Controller
 
     public function destroy($id)
     {
+        $tickets = Agent::find($id);
+        
+        foreach($tickets->agentOpenTickets as $ticket)
+        {
+            $ticket->autoSelectAgent();
+        }
+        
         $agent = $this->removeAgent($id);
 
         Session::flash('status', trans('ticketit::lang.agents-is-removed-from-team', ['name' => $agent->name]));
