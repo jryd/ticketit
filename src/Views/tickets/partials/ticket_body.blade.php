@@ -53,7 +53,7 @@
                 <div class="panel-body">
                     <div class="col-md-12">
                         <div class="col-md-6">
-                            <p> <strong>{{ trans('ticketit::lang.owner') }}</strong>{{ trans('ticketit::lang.colon') }}<a href="{{ url('/user/moderate/' . $ticket->user->id) }}">{{ $ticket->user->name }}</a></p>
+                            <p> <strong>{{ trans('ticketit::lang.owner') }}</strong>{{ trans('ticketit::lang.colon') }}<a href="{{ url('/user/moderate/' . $ticket->user->id) }}">{{ $ticket->user->name }}</a> - testing</p>
                             <p>
                                 <strong>{{ trans('ticketit::lang.status') }}</strong>{{ trans('ticketit::lang.colon') }}
                                 @if( $ticket->isComplete() && ! $setting->grab('default_close_status_id') )
